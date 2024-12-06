@@ -1,0 +1,26 @@
+*{ padding: 0px; margin: 0px;}
+h1{  font-size: 30px; color: blue; text-align: center;}
+h2{ font-size: 24px; color: #363636; padding: 10px 0px; width: 500px;}
+h3{font-size: 22px; color:blue; }
+h4{ font-size: 18px; color: #000; padding-top: 10px;}
+p{font-size: 16px; color: #363636;}
+ul{list-style: none;}
+span{font-size: 18px; color: darkred; padding: 10px 0px; display: block;}
+body{ width: 100%; height:auto; font-family: Georgia, 'Times New Roman', Times, serif;}
+.wrapper{width: 900px; height: auto; margin: 10px auto;}
+header{width: 100%; height: auto; }
+.logo{width: 40%; height: auto; margin: auto;}
+section{ width: 100%;height: auto; display: flex;justify-content: space-around; margin-top: 20px;}
+.left{ width: 48%; height: auto;}
+.contact{width: 100%;height:auto; padding-bottom: 10px;}
+.contact ul li{font-size: 18px; cursor: pointer; padding: 7px 0px;}
+.contact ul li a{color:darkred ;}
+.contact ul li a:hover{color:rgb(29, 29, 29) ;}
+.skill{width: 100%;height:auto; padding-bottom: 10px;}
+.skill ol li{font-size: 18px; color:darkred; margin: 7px 0px 7px 20px;} 
+.right{ width: 48%; height: auto;}
+.about{width: 100%; height: auto;}
+.about p{padding: 10px 0px;}
+.work{width: 100%; height: auto; padding-top: 10px;}
+.work p{font-size: 15px; padding-bottom: 10px;}
+.work ul li{ font-size: 15px; color: darkred; margin: 7px 0px 7px 15px; list-style:square;}
